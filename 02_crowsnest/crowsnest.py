@@ -27,7 +27,6 @@ def main():
 
     args = get_args()
     word = args.word
-    print(word)
 
     article = ''
     if word[0].lower() in 'aeiou':
